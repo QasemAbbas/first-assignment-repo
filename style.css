@@ -5,8 +5,6 @@
     font-family: "Open Sans", sans-serif;
 }
 body{
-    max-width: 1200px;
-    margin: auto;
     background-color: #fff;
 }
 
@@ -26,14 +24,25 @@ body{
     background-color: #0333b8;   
 }
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 
+
+.sectionh1{
+    margin: 150px;
+    margin-bottom: 50px; 
+    font-size: 80px;  
+    text-align: center;
+}
 
 /*==========================Navber Section==========================*/
 .header-area{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 .header-area img{
     display: block;
@@ -63,6 +72,7 @@ body{
 
 /*==========================Hero Section==========================*/
 .hero-section-area{
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +80,7 @@ body{
     height: 786px;
 }
 .hero-text h1{
+
 color: #fff;
 font-weight: 700;
 font-size: 80px;
@@ -95,4 +106,204 @@ font-size: 15px;
     margin-top: 370px;
 }
 
-/*==========================Meet the Speakirs==========================*/
+
+
+/*==========================Meet the Speakirs Section Start==========================*/
+.cars-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+.speakers-card1, .speakers-card2, .speakers-card3, .speakers-card4 {
+    background: #fff;
+    border: 1px solid #8e8e8e8e;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;   
+}
+.speakers-card1 img, .speakers-card2 img, .speakers-card3 img, .speakers-card4 img {
+    width: 100%;
+    height: 350px;
+}
+.speaker-detals{
+    padding: 25px 25px;
+}
+.speaker-detals h3{
+    color: #2563EB;
+}
+.speaker-detals p{
+    color: #575757;
+}
+/*==========================Meet the Speakirs Section End==========================*/
+
+
+
+
+
+
+/*==========================Secure Your Spot Section Start==========================*/
+.spot-section-area>p{
+    text-align: center;
+}
+.sport-3cads{
+    margin-top: 40px;
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; 
+}
+
+.spot-details{
+    border: 1px solid #8e8e8e8e;
+    padding:20px 35px;
+    border-radius: 12px;
+    height: 444px;
+}
+.spot-details ul{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.spot-details ul>li{
+    color: #333333;
+    padding: 8px 0px;
+
+}
+/* .spot-details ul li::before{
+    content: "•";
+    position: absolute;
+    color: #1D4ED8;
+
+} */
+
+.spot-details>button{
+margin-left: 20%;
+margin-top: 15px;
+}
+
+.meddle{
+    background:#0D1B2A;
+}
+.meddle hr{
+    border-color: #0D1B2A;
+}
+
+
+
+
+/*========================== Contact CTA Section Start ==========================*/
+.contact-cta-section {
+  padding: 100px 0;
+  background: #f8fafc;
+}
+
+.contact-cta-wrapper {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+  border-radius: 20px;
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact-cta-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 220px;
+  height: 220px;
+  background: rgba(37, 99, 235, 0.12);
+  border-radius: 50%;
+}
+
+.contact-cta-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: -70px;
+  left: -70px;
+  width: 180px;
+  height: 180px;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 50%;
+}
+
+.contact-cta-content,
+.contact-cta-form {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #60a5fa;
+  margin-bottom: 16px;
+}
+
+.contact-cta-content h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.contact-cta-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #cbd5e1;
+  max-width: 560px;
+}
+
+.contact-cta-form {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group input {
+  width: 100%;
+  height: 54px;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  padding: 0 18px;
+  font-size: 15px;
+  color: #0f172a;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.input-group input::placeholder {
+  color: #94a3b8;
+}
+
+.contact-btn {
+  width: 100%;
+  height: 54px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #1d4ed8;
+}
