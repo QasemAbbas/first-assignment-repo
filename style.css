@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+/*==========================All Common Style==========================*/
+/*Button*/
+.comm-btn{
+    background-color: #1D4ED8;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.comm-btn:hover{
+    background-color: #0333b8;   
+}
+
+
+
+/*==========================Navber Section==========================*/
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.header-area img{
+    display: block;
+    height: 35px;
+}
+.nav-links{
+    display: flex;  
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links ul a{
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color:#575757;
+    padding: 6px 10px;
+    border-radius: 4px;   
+}
+.nav-links ul a:hover{
+    background-color: rgb(204, 211, 245);   
+}
+
+
+/*==========================Hero Section==========================*/
