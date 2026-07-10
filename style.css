@@ -62,3 +62,37 @@ body{
 
 
 /*==========================Hero Section==========================*/
+.hero-section-area{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 786px;
+}
+.hero-text h1{
+color: #fff;
+font-weight: 700;
+font-size: 80px;
+}
+.hero-text p{
+color: #fff;
+font-weight: 400;
+font-size: 15px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h1{
+    margin-top: 136px;
+}
+.hero-text p{
+    text-align: center;
+}
+.hero-text button{
+    margin-top: 370px;
+}
+
+/*==========================Meet the Speakirs==========================*/
