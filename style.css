@@ -182,7 +182,7 @@ margin-top: 15px;
 .meddle{
     background:#0D1B2A;
 }
-.meddle hr{
+hr{
     border-color: #0D1B2A;
 }
 
@@ -469,5 +469,67 @@ margin-top: 15px;
     height: 50px;
   }
 }
-
 /*==========================Contact CTA Section End==========================*/
+
+
+
+/*==========================Footer Section Start==========================*/
+.footer{
+    width: 100%;   
+    background-color:#0D1B2A;
+    padding: 15px 0;
+}
+
+.footer-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer-div1, .footer-div2, .footer-div3{
+flex: 1;
+}
+.footer-part1{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.fa-brands{
+    color:#575757;
+    padding: 0 6px;
+    font-size: 15px;
+    cursor: pointer;    
+}
+
+
+.footer p,h3{
+   color:#575757; 
+}
+.footer h3{
+    font-weight: 700;
+}
+
+.quick-links ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.quick-links ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.quick-links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color:#575757; 
+}
