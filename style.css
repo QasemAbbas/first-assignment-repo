@@ -8,7 +8,7 @@ body{
     background-color: #fff;
 }
 
-/*==========================All Common Style==========================*/
+/*==========================All Common Style Start==========================*/
 /*Button*/
 .comm-btn{
     background-color: #1D4ED8;
@@ -20,6 +20,7 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
+
 .comm-btn:hover{
     background-color: #0333b8;   
 }
@@ -31,31 +32,38 @@ body{
 
 
 .sectionh1{
-    margin: 150px;
-    margin-bottom: 50px; 
     font-size: 80px;  
     text-align: center;
 }
+/*==========================All Common Style End==========================*/
 
-/*==========================Navber Section==========================*/
+
+
+
+
+/*==========================Navber Section Start==========================*/
 .header-area{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 25px 0;
 }
+
 .header-area img{
     display: block;
     height: 35px;
 }
+
 .nav-links{
     display: flex;  
 }
+
 .nav-links ul{
     display: flex;
     list-style: none;
     gap: 20px;
 }
+
 .nav-links ul a{
     /* display: inline-block; */
     text-decoration: none;
@@ -65,12 +73,17 @@ body{
     padding: 6px 10px;
     border-radius: 4px;   
 }
+
 .nav-links ul a:hover{
     background-color: rgb(204, 211, 245);   
 }
+/*==========================Navber Section Eng==========================*/
 
 
-/*==========================Hero Section==========================*/
+
+
+
+/*==========================Hero Section Start==========================*/
 .hero-section-area{
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg');
@@ -79,41 +92,57 @@ body{
     background-position: center;
     height: 786px;
 }
-.hero-text h1{
 
+.hero-text h1{
 color: #fff;
 font-weight: 700;
 font-size: 80px;
 }
+
+.hero-italic{
+  font-style: italic;
+  color: #2563EB;
+}
+
 .hero-text p{
 color: #fff;
 font-weight: 400;
 font-size: 15px;
 }
+
 .hero-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .hero-text h1{
     margin-top: 136px;
 }
+
 .hero-text p{
     text-align: center;
 }
+
 .hero-text button{
     margin-top: 370px;
 }
+/*==========================Hero Section Eng==========================*/
 
 
+/*==========================Meet Speakirs Section Start==========================*/
+.speakers-section-area>h1{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
 
-/*==========================Meet the Speakirs Section Start==========================*/
 .cars-div{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 35px;
 }
+
 .speakers-card1, .speakers-card2, .speakers-card3, .speakers-card4 {
     background: #fff;
     border: 1px solid #8e8e8e8e;
@@ -121,20 +150,24 @@ font-size: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;   
 }
+
 .speakers-card1 img, .speakers-card2 img, .speakers-card3 img, .speakers-card4 img {
     width: 100%;
     height: 350px;
 }
+
 .speaker-detals{
     padding: 25px 25px;
 }
+
 .speaker-detals h3{
     color: #2563EB;
 }
+
 .speaker-detals p{
     color: #575757;
 }
-/*==========================Meet the Speakirs Section End==========================*/
+/*==========================Meet Speakirs Section Eng==========================*/
 
 
 
@@ -142,12 +175,17 @@ font-size: 15px;
 
 
 /*==========================Secure Your Spot Section Start==========================*/
+.spoth1{
+  padding: 80px 0px 0px;
+}
+
 .spot-section-area>p{
     text-align: center;
 }
+
 .sport-3cads{
     margin-top: 40px;
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px; 
 }
@@ -158,21 +196,20 @@ font-size: 15px;
     border-radius: 12px;
     height: 444px;
 }
+
 .spot-details ul{
     margin-left: 20px;
     margin-top: 20px;
 }
+
 .spot-details ul>li{
     color: #333333;
     padding: 8px 0px;
-
 }
-/* .spot-details ul li::before{
-    content: "•";
-    position: absolute;
-    color: #1D4ED8;
 
-} */
+.spot-header>p{
+text-align: center;
+}
 
 .spot-details>button{
 margin-left: 20%;
@@ -182,131 +219,55 @@ margin-top: 15px;
 .meddle{
     background:#0D1B2A;
 }
+
 hr{
     border-color: #0D1B2A;
 }
 
-
-
-
-/*========================== Contact CTA Section Start ==========================*/
-.contact-cta-section {
-  padding: 100px 0;
-  background: #f8fafc;
+.meddle p{
+  color: #2563EB;
 }
 
-.contact-cta-wrapper {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 40px;
-  align-items: center;
-  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
-  border-radius: 20px;
-  padding: 50px;
-  overflow: hidden;
-  position: relative;
+.meddle h2{
+  color: #fff;
 }
 
-.contact-cta-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -80px;
-  right: -80px;
-  width: 220px;
-  height: 220px;
-  background: rgba(37, 99, 235, 0.12);
-  border-radius: 50%;
+.up ul li{
+  color: #0D1B2A;
 }
 
-.contact-cta-wrapper::after {
-  content: "";
-  position: absolute;
-  bottom: -70px;
-  left: -70px;
-  width: 180px;
-  height: 180px;
-  background: rgba(59, 130, 246, 0.1);
-  border-radius: 50%;
+.up ul li::marker{
+  color: #2563eb;
 }
 
-.contact-cta-content,
-.contact-cta-form {
-  position: relative;
-  z-index: 2;
+.meddle ul li::marker{
+  color: #fff;
 }
 
-.contact-tag {
-  display: inline-block;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #60a5fa;
-  margin-bottom: 16px;
+.meddle ul li::marker{
+  color: #3b82f6;
 }
 
-.contact-cta-content h2 {
-  font-size: 42px;
-  line-height: 1.2;
-  color: #ffffff;
-  margin-bottom: 18px;
+.dwon ul li{
+   color: #0D1B2A;
 }
 
-.contact-cta-content p {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #cbd5e1;
-  max-width: 560px;
+.dwon ul li::marker{
+  color: #2563eb;
 }
 
-.contact-cta-form {
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 30px;
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
-}
-
-.input-group {
-  margin-bottom: 18px;
-}
-
-.input-group input {
-  width: 100%;
-  height: 54px;
-  border: 1px solid #dbe2ea;
-  border-radius: 10px;
-  padding: 0 18px;
-  font-size: 15px;
-  color: #0f172a;
-  outline: none;
-  transition: 0.3s;
-}
-
-.input-group input:focus {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
-}
-
-.input-group input::placeholder {
-  color: #94a3b8;
-}
-
-.contact-btn {
-  width: 100%;
-  height: 54px;
-  border: none;
-  border-radius: 10px;
-  background: #2563eb;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
+.spot-btn1, .spot-btn3{
+  background: #fff;
+  border: 1px solid #1D4ED8;
+  padding: 12px 40px;
+  border-radius: 5px;
+  font-size: 17px;
   cursor: pointer;
-  transition: 0.3s;
-}
+  font-weight: bold;
+  color: #1d4ed8;
 
-.contact-btn:hover {
-  background: #1d4ed8;
 }
+/*==========================Secure Your Spot Section End==========================*/
 
 
 
@@ -372,7 +333,6 @@ hr{
   color: #ffffff;
   margin-bottom: 18px;
 }
-
 .contact-cta-content p {
   font-size: 16px;
   line-height: 1.8;
@@ -487,15 +447,16 @@ hr{
     align-items: flex-start;
     padding: 10px 0;
 }
+
 .footer-div1, .footer-div2, .footer-div3{
 flex: 1;
 }
+
 .footer-part1{
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
-
 
 .footer-down{
     display: flex;
@@ -510,10 +471,10 @@ flex: 1;
     cursor: pointer;    
 }
 
-
 .footer p,h3{
    color:#575757; 
 }
+
 .footer h3{
     font-weight: 700;
 }
@@ -523,13 +484,16 @@ flex: 1;
     flex-direction: column;
     text-decoration: none;
 }
+
 .quick-links ul li{
     list-style: none;
     text-decoration: none;
 }
+
 .quick-links ul li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     color:#575757; 
 }
+/*==========================Footer Section End==========================*/
