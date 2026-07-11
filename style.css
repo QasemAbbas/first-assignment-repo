@@ -176,97 +176,78 @@ font-size: 15px;
 
 /*==========================Secure Your Spot Section Start==========================*/
 .spoth1{
-  padding: 80px 0px 0px;
+  padding: 80px 0 0;
 }
-
-.spot-section-area>p{
-    text-align: center;
+.spot-header p{
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 .sport-3cads{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+
+}
+.card{
+    margin-top: 15px;
+  border: 1px solid #575757;
+    padding: 30px;
+    width: 370px;
+    height:444px;
+    border-radius: 15px;
 }
 
-.spot-details{
-    border: 1px solid #8e8e8e8e;
-    padding:20px 35px;
-    border-radius: 12px;
-    height: 444px;
+.card ul li{
+padding: 10px 0;
+}
+.middle{
+  background: #0D1B2A;
 }
 
-.spot-details ul{
-    margin-left: 20px;
-    margin-top: 20px;
+.card button{
+ margin-top:auto;
+    width:100%;
+    padding:14px;
+    border-radius:6px;
+    border:1px solid #2563eb;
+    background:#fff;
+    color:#2563eb;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
 }
 
-.spot-details ul>li{
-    color: #333333;
-    padding: 8px 0px;
+.middle button{
+  background: #2563EB;
+  color: white;
 }
 
-.spot-header>p{
-text-align: center;
-}
-
-.spot-details>button{
-margin-left: 20%;
-margin-top: 15px;
-}
-
-.meddle{
-    background:#0D1B2A;
-}
-
-hr{
-    border-color: #0D1B2A;
-}
-
-.meddle p{
-  color: #2563EB;
-}
-
-.meddle h2{
-  color: #fff;
-}
-
-.up ul li{
+.card ul li{
   color: #0D1B2A;
 }
 
-.up ul li::marker{
+.card p{
+  padding: 6px 0;
+}
+.middle ul li{
+  color: #fff;
+}
+.card ul li::marker{
   color: #2563eb;
 }
 
-.meddle ul li::marker{
+.middle ul li::marker{
   color: #fff;
 }
 
-.meddle ul li::marker{
+.middle ul li::marker{
   color: #3b82f6;
 }
-
-.dwon ul li{
-   color: #0D1B2A;
+.middleh2, .middlep{
+  color: #fff;
 }
 
-.dwon ul li::marker{
-  color: #2563eb;
-}
-
-.spot-btn1, .spot-btn3{
-  background: #fff;
-  border: 1px solid #1D4ED8;
-  padding: 12px 40px;
-  border-radius: 5px;
-  font-size: 17px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #1d4ed8;
-
-}
 /*==========================Secure Your Spot Section End==========================*/
 
 
